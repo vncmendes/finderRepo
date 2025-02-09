@@ -20,7 +20,7 @@
     "webpack-dev-server": "^3.2.1"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode=development",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server --mode=development",
     "build": "webpack --mode=production"
   }
 }
